@@ -1,0 +1,10 @@
+spring.jpa.hibernate.ddl-auto=validate
+logging.level.org.springframework.web=debug
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.show-sql=true
+#Hibernate
+spring.jpa.database=postgresql
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+#fields
+url.file=http://localhost:8080/v1/file/
+resources.uploads=src/main/resources/uploads/
